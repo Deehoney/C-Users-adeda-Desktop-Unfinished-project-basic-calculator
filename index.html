@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <script src="./script.js"></script> 
+</head>
+<style>
+    .calc{
+        border: 1px black solid ;
+        margin: 20% 30% 50% 30% ;
+    }
+</style>
+<body>
+   <center>
+       <div class="calc">
+<h1>
+    Basic Calculator
+</h1>
+<table>
+    <tr>
+        <!-- <td>N1:</td> -->
+        <td><input type="text"  id="n1" maxlength="5"></td>
+    </tr>
+    <tr>
+        <!-- <td>OPR:</td> -->
+        <td><input type="text"  id="opr" maxlength="1"></td>
+    </tr>
+
+    <tr>
+        <!-- <td>N2:</td> -->
+        <td><input type="text"  id="n2" maxlength="5"></td>
+    </tr>
+</table>
+<button onclick="calc()">
+    Calculate
+</button>
+<table>
+    <tr>
+        <!-- <td>RESULT:</td> -->
+        <td><input type="text"  id="result" maxlength="10"></td>
+    </tr>
+</table>
+
+</div>
+
+
+   </center> 
+ 
+</body>
+</html>
